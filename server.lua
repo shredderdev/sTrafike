@@ -14,7 +14,7 @@ AddEventHandler("platiCokolade", function(kolicina)
 	--TriggerClientEvent('okokNotify:Alert', source, "Shredder Development", "Kupili ste cokolade!", 5000, 'success')
 
 	-- uzima pare i daje vam item
-    xPlayer.removeMoney(100 * kolicina)
+	xPlayer.removeInventoryItem("money", 100 * kolicina)
 	xPlayer.addInventoryItem('milka', kolicina)
   end
 end)
@@ -33,7 +33,7 @@ AddEventHandler("platiSnikerse", function(kolicina)
 	--TriggerClientEvent('okokNotify:Alert', source, "Shredder Development", "Kupili ste snikers!", 5000, 'success')
 
 	-- uzima pare i daje vam item
-    xPlayer.removeMoney(70 * kolicina)
+        xPlayer.removeInventoryItem("money", 70 * kolicina)
 	xPlayer.addInventoryItem('snickers', kolicina)
   end
 end)
@@ -52,7 +52,7 @@ AddEventHandler("platiTwixove", function(kolicina)
 	--TriggerClientEvent('okokNotify:Alert', source, "Shredder Development", "Kupili ste twix!", 5000, 'success')
 
 	-- uzima pare i daje vam item
-	xPlayer.removeMoney(60 * kolicina)
+	xPlayer.removeInventoryItem("money", 60 * kolicina)
 	xPlayer.addInventoryItem('twix', kolicina)
   end
 end)
@@ -71,7 +71,7 @@ AddEventHandler('platiKafu', function(kolicina)
 	--TriggerClientEvent('okokNotify:Alert', source, "Shredder Development", "Kupili ste kafu!", 5000, 'success')
 
   	-- uzima pare i daje vam item
-   xPlayer.removeMoney(30 * kolicina)
+   xPlayer.removeInventoryItem("money", 30 * kolicina)
    xPlayer.addInventoryItem('coffee', kolicina)
   end
 end)
@@ -90,7 +90,7 @@ AddEventHandler("platiVodu", function(kolicina)
 	--TriggerClientEvent('okokNotify:Alert', source, "Shredder Development", "Kupili ste twix!", 5000, 'success')
 
 	-- uzima pare i daje vam item
-	xPlayer.removeMoney(15 * kolicina)
+	xPlayer.removeInventoryItem("money", 15 * kolicina)
 	xPlayer.addInventoryItem('water', kolicina)
   end
 end)
