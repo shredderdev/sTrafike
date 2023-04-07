@@ -1,4 +1,3 @@
--- made by: Shredder#9064
 fx_version 'adamant'
 game 'gta5'
 lua54 'yes'
