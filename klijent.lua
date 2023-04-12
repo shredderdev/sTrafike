@@ -125,48 +125,38 @@ lib.registerContext({
 
 AddEventHandler('KolicinaCokoladi', function(kolicina)
     local input = lib.inputDialog('Trafike', {'Kolicina'})
-    if input then
     local kolicina = tonumber(input[1])
     TriggerServerEvent("platiCokolade", kolicina)
-  end
 end)
 
 -- snikers
 
 AddEventHandler('KolicinaSnikersa', function(kolicina)
     local input = lib.inputDialog('Trafike', {'Kolicina'})
-    if input then
     local kolicina = tonumber(input[1])
     TriggerServerEvent("platiSnikerse", kolicina)
-  end
 end)
 
 -- twix
 
 AddEventHandler('KolicinaTwixova', function(kolicina)
     local input = lib.inputDialog('Trafike', {'Kolicina'})
-    if input then
     local kolicina = tonumber(input[1])
     TriggerServerEvent("platiTwixove", kolicina)
-  end
 end)
 
 -- kafa
 
 AddEventHandler('KolicinaKafa', function(kolicina)
     local input = lib.inputDialog('Trafike', {'Kolicina'})
-    if input then
     local kolicina = tonumber(input[1])
     TriggerServerEvent("platiKafu", kolicina)
-  end
 end)
 
 -- voda
 
 AddEventHandler('KolicinaVoda', function(kolicina)
     local input = lib.inputDialog('Trafike', {'Kolicina'})
-    if input then
     local kolicina = tonumber(input[1])
     TriggerServerEvent("platiVodu", kolicina)
-  end
 end)
